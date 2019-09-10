@@ -1,6 +1,6 @@
 # Tree-based Bayesian Mixture model for Comepting Risks
 
-This is an R implementation of the paper ["Tree-based Bayesian Mixture Model for Competing Risks"](http://proceedings.mlr.press/v84/bellot18a.html). 
+[**Work in progress**] This is an R implementation of the paper ["Tree-based Bayesian Mixture Model for Competing Risks"](http://proceedings.mlr.press/v84/bellot18a.html). 
 
 In this project we  develop a semi-parametric Bayesian regression model for survival analysis with competing risks, which can be used for jointly assessing a patient’s risk of multiple (competing) adverse outcomes. The problem that motivated our approach is that in medical applications, therapies designed for patients at risk of multiple diseases need to account for the shared impact they may have on related diseases to ensure maximum overall well-being. Our algorithm is based on a Hierarchical Bayesian Mixture (HBM) model that describes survival paths in which a patient’s covariates influence both the estimation of the type of adverse event and the subsequent survival trajectory through Multivariate Random Forests. 
 
